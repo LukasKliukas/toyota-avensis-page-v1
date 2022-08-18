@@ -1,5 +1,7 @@
 # Toyota Avensis web page made with react
 
+Project is not finnished yet.
+
 ## What is this project:
 
 ## How to start this project on your computer:
