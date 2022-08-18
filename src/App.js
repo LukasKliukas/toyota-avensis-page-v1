@@ -21,8 +21,6 @@ function App() {
     },
   ];
 
-  const linkArr = ['/home', '/firstGen', '/secondGen', '/thirdGen'];
-
   return (
     <div className='App'>
       <Header buttons={buttonObj} />
