@@ -4,14 +4,16 @@ import * as S from './Header.style';
 const Header = ({ buttons }) => {
   return (
     <S.Header>
-      <img src='images\Toyota_carlogo.svg.png' alt='logo' />
-      {buttons.map((button) => {
-        return (
-          <a href={button.link} key={button.title}>
-            {button.title}
-          </a>
-        );
-      })}
+      <S.LogoImg src='images\Toyota_carlogo.svg.png' alt='logo' />
+      <nav>
+        {buttons.map((button) => {
+          return (
+            <S.ALinks href={button.link} key={button.title}>
+              {button.title}
+            </S.ALinks>
+          );
+        })}
+      </nav>
     </S.Header>
   );
 };
