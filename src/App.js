@@ -1,11 +1,14 @@
 import './App.css';
 import Header from './components/Header/Header.jsx';
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home/Home';
+import FirstGen from './pages/FirstGen/FirstGen';
 
 function App() {
   const buttonObj = [
     {
       title: 'Home',
-      link: '/home',
+      link: '/',
     },
     {
       title: 'First Generation',
@@ -24,6 +27,10 @@ function App() {
   return (
     <div className='App'>
       <Header buttons={buttonObj} />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/firstGen' element={<FirstGen />} />
+      </Routes>
     </div>
   );
 }
