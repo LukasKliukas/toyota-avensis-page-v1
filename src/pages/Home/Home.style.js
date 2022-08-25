@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
   height: 40rem;
 `;
 export const MainInfo = styled.h1`
+  font-family: 'Patua One', cursive;
   margin: 0rem;
   max-width: 40rem;
   padding: 4rem 4rem;

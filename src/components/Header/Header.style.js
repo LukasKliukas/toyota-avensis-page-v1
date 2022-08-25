@@ -11,6 +11,7 @@ export const LogoImg = styled.img`
   width: 8rem;
 `;
 export const ALinks = styled.a`
+  font-family: 'Rubik Dirt', cursive;
   font-size: 1.5rem;
   color: #000;
   margin: 0rem 2rem;
