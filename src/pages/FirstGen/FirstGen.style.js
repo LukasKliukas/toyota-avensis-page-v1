@@ -12,7 +12,7 @@ export const Grid = styled.div`
   grid-template-columns: 1fr 1fr;
 `;
 export const Wrapper = styled.div`
-  background: #3e94f4;
+  background-image: url('images/bg-moroccan-flower.png');
 `;
 export const Info = styled.div`
   background: #d8d4d3;

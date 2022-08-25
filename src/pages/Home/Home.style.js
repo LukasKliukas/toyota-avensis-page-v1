@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  background: #3e94f4;
+  background-image: url('images/bg-moroccan-flower.png');
+  /* background: #3e94f4; */
   height: 40rem;
 `;
-export const Header = styled.h1`
-  background: #3e94f4;
+export const MainInfo = styled.h1`
   margin: 0rem;
   max-width: 40rem;
   padding: 4rem 4rem;
