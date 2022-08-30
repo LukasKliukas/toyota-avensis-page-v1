@@ -3,6 +3,7 @@ import Header from './components/Header/Header.jsx';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import FirstGen from './pages/FirstGen/FirstGen';
+import SecondGen from './pages/SecondGen/SecondGen';
 
 function App() {
   const buttonObj = [
@@ -30,6 +31,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/firstGen' element={<FirstGen />} />
+        <Route path='/secondGen' element={<SecondGen />} />
       </Routes>
     </div>
   );
