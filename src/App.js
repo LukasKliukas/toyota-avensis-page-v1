@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import FirstGen from './pages/FirstGen/FirstGen';
 import SecondGen from './pages/SecondGen/SecondGen';
+import ThirdGen from './pages/ThirdGen/ThirdGen';
 
 function App() {
   const buttonObj = [
@@ -32,6 +33,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/firstGen' element={<FirstGen />} />
         <Route path='/secondGen' element={<SecondGen />} />
+        <Route path='/thirdGen' element={<ThirdGen />} />
       </Routes>
     </div>
   );
