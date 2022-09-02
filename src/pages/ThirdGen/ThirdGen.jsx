@@ -5,7 +5,7 @@ const ThirdGen = () => {
   return (
     <S.Wrapper>
       <S.Grid>
-        <S.Image src='\images\Avensis3_front.jpg' alt='' />
+        <S.Image src='\images\Avensis3-front.webp' alt='' />
         <S.Image src='\images\Avensis3_interior.jpg' alt='' />
         <S.Info>
           The third generation Avensis was revealed at the 2008 Paris Motor
