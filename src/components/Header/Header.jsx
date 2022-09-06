@@ -5,7 +5,7 @@ const Header = ({ buttons }) => {
   return (
     <S.Header>
       <S.LogoImg src='images\Toyota_carlogo.svg.png' alt='logo' />
-      <nav>
+      <S.NavElWithALinks>
         {buttons.map((button) => {
           return (
             <S.ALinks href={button.link} key={button.title}>
@@ -13,7 +13,7 @@ const Header = ({ buttons }) => {
             </S.ALinks>
           );
         })}
-      </nav>
+      </S.NavElWithALinks>
     </S.Header>
   );
 };

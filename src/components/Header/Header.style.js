@@ -34,3 +34,10 @@ export const ALinks = styled.a`
     color: #3e94f4;
   }
 `;
+export const NavElWithALinks = styled.nav`
+  padding: 1srem 0rem;
+  display: flex;
+  @media only screen and (max-width: 1200px) {
+    flex-direction: column;
+  }
+`;
